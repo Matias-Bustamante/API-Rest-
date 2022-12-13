@@ -1,0 +1,206 @@
+{
+	"id": "52a3f80e-caa4-8fcf-06b9-d176ac001c52",
+	"name": "Organizations",
+	"description": "EndPoint de la entidad organizacion\n",
+	"order": [
+		"a95fd8de-a8ba-fae1-fe14-67c368b908aa",
+		"92a1713e-ee11-ce8c-321b-30bae3d3683b",
+		"8d4df178-5bc0-8e4d-6f56-aa8f11815ede",
+		"ab7dba46-5f20-8a81-853a-a8410240e00b",
+		"f5123f4e-2df5-f527-7b2f-a3e038b12298",
+		"09a8fc0a-4f56-e04d-8a52-2b1841805ae1"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1669430967242,
+	"owner": "18980629",
+	"public": false,
+	"requests": [
+		{
+			"id": "09a8fc0a-4f56-e04d-8a52-2b1841805ae1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/organizations/org1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "52a3f80e-caa4-8fcf-06b9-d176ac001c52",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/organizations/org1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669431612239,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"name\":\"org1\", \n\t\"address\": \"dir1\", \n\t\"phone\":\"12345678\", \n\t\"email\":\"ejemplo@gmail.com\",\n\t\"cuit\":\"20396164913\", \n\t\"key_code\":\"0eb2fb41-f315-4795-bd13-13d3923037\"\n}"
+		},
+		{
+			"id": "8d4df178-5bc0-8e4d-6f56-aa8f11815ede",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/organizations/org2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "52a3f80e-caa4-8fcf-06b9-d176ac001c52",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/organizations/org2",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669431338000,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"name\":\"org2\", \n\t\"address\": \"dir2\", \n\t\"phone\":\"12345676\", \n\t\"email\":\"ejempl1@gmail.com\",\n\t\"cuit\":\"20396164913\"\n}"
+		},
+		{
+			"id": "92a1713e-ee11-ce8c-321b-30bae3d3683b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/organizations",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "52a3f80e-caa4-8fcf-06b9-d176ac001c52",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/organizations",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669431273453,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"name\":\"org2\", \n\t\"address\": \"dir2\", \n\t\"phone\":\"12345676\", \n\t\"email\":\"ejempl1@gmail.com\",\n\t\"cuit\":\"20396164913\"\n}"
+		},
+		{
+			"id": "a95fd8de-a8ba-fae1-fe14-67c368b908aa",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/organizations",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "52a3f80e-caa4-8fcf-06b9-d176ac001c52",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/organizations",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669431169068,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"name\":\"evento1\", \n\t\"address\": \"dir1\", \n\t\"phone\":\"12345678\", \n\t\"email\":\"ejemplo@gmail.com\",\n\t\"cuit\":\"20396164915\"\n}"
+		},
+		{
+			"id": "ab7dba46-5f20-8a81-853a-a8410240e00b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/organizations/evento1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "52a3f80e-caa4-8fcf-06b9-d176ac001c52",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/organizations/evento1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669431356432,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"name\":\"org2\", \n\t\"address\": \"dir2\", \n\t\"phone\":\"12345676\", \n\t\"email\":\"ejempl1@gmail.com\",\n\t\"cuit\":\"20396164913\"\n}"
+		},
+		{
+			"id": "f5123f4e-2df5-f527-7b2f-a3e038b12298",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/organizations/update/evento1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "52a3f80e-caa4-8fcf-06b9-d176ac001c52",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/organizations/update/evento1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669431558516,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"name\":\"org1\", \n\t\"address\": \"dir1\", \n\t\"phone\":\"12345678\", \n\t\"email\":\"ejemplo@gmail.com\",\n\t\"cuit\":\"20396164913\", \n\t\"key_code\":\"0eb2fb41-f315-4795-bd13-13d3923037\"\n}"
+		}
+	]
+}

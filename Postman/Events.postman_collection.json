@@ -1,0 +1,206 @@
+{
+	"id": "154b7c68-fa0b-af8e-bece-365c2a784de4",
+	"name": "Events",
+	"description": "",
+	"order": [
+		"36210ed6-459c-5eab-5bfe-18efcb729864",
+		"0d66e2a6-7afb-9052-c2f4-0a95b559c015",
+		"9c936a50-ecb0-d247-547e-4d00007f8b23",
+		"375415bf-2397-c1d4-d797-4516f4f2b062",
+		"62de99eb-64cc-eb49-c26f-b50f6d64c8e4",
+		"40f4bed6-3350-0f4d-23e1-1e0286118a3c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1669513119885,
+	"owner": "18980629",
+	"public": false,
+	"requests": [
+		{
+			"id": "0d66e2a6-7afb-9052-c2f4-0a95b559c015",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/events/evento1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "154b7c68-fa0b-af8e-bece-365c2a784de4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/events/evento1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669513849394,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"name\":\"evento1\", \n\t\"location\":\"dir1\", \n\t\"date_event\":\"2022-11-10\",\n\t\"periodicity\":\"RECURRENTE\",\n\t\"organization\": { \n\t\t\n\t\t\"name\":\"org1\"\n\t}\n}"
+		},
+		{
+			"id": "36210ed6-459c-5eab-5bfe-18efcb729864",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/events",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "154b7c68-fa0b-af8e-bece-365c2a784de4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/events",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669513130639,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"name\":\"evento1\", \n\t\"location\":\"dir1\", \n\t\"date_event\":\"2022-11-10\",\n\t\"periodicity\":\"RECURRENTE\",\n\t\"organization\": { \n\t\t\n\t\t\"name\":\"org1\"\n\t}\n}"
+		},
+		{
+			"id": "375415bf-2397-c1d4-d797-4516f4f2b062",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/events/evento1/org1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "154b7c68-fa0b-af8e-bece-365c2a784de4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/events/evento1/org1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669559447388,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"name\":\"evento1\", \n\t\"location\":\"dir1\", \n\t\"date_event\":\"2022-11-30\",\n\t\"periodicity\":\"UNICO\",\n\t\"organization\": { \n\t\t\n\t\t\"name\":\"org1\"\n\t}\n}"
+		},
+		{
+			"id": "40f4bed6-3350-0f4d-23e1-1e0286118a3c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/events/evento4/org1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "154b7c68-fa0b-af8e-bece-365c2a784de4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/events/evento4/org1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669559485036,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"name\":\"evento1\", \n\t\"location\":\"dir1\", \n\t\"date_event\":\"2022-11-30\",\n\t\"periodicity\":\"UNICO\",\n\t\"organization\": { \n\t\t\n\t\t\"name\":\"org1\"\n\t}\n}"
+		},
+		{
+			"id": "62de99eb-64cc-eb49-c26f-b50f6d64c8e4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/events/evento1/org3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "154b7c68-fa0b-af8e-bece-365c2a784de4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/events/evento1/org3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669559478860,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"name\":\"evento1\", \n\t\"location\":\"dir1\", \n\t\"date_event\":\"2022-11-30\",\n\t\"periodicity\":\"UNICO\",\n\t\"organization\": { \n\t\t\n\t\t\"name\":\"org1\"\n\t}\n}"
+		},
+		{
+			"id": "9c936a50-ecb0-d247-547e-4d00007f8b23",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/events/update/evento2/org1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "154b7c68-fa0b-af8e-bece-365c2a784de4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/events/update/evento2/org1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669516294744,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"name\":\"evento1\", \n\t\"location\":\"dir1\", \n\t\"date_event\":\"2022-11-30\",\n\t\"periodicity\":\"UNICO\",\n\t\"organization\": { \n\t\t\n\t\t\"name\":\"org1\"\n\t}\n}"
+		}
+	]
+}

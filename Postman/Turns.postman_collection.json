@@ -1,0 +1,238 @@
+{
+	"id": "c34d8e50-e4c1-2332-1c21-15edd33e2faa",
+	"name": "Turns",
+	"description": "",
+	"order": [
+		"fa7fbba9-d286-fe26-6d31-07ade2115a74",
+		"a10a247d-341f-5481-cc07-d8d28e09de74",
+		"cc255de9-48bf-58f4-b393-adc54f9f398f",
+		"92b42fa8-e25c-30bd-4863-05f254bc9da5",
+		"970d13ed-0485-43cb-ef09-c58123ecb2ea",
+		"88017c39-75ff-a5c0-0ccf-f04675654102",
+		"15aa285c-3a73-680c-abf4-48ea1328d508"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1669577325065,
+	"owner": "18980629",
+	"public": false,
+	"requests": [
+		{
+			"id": "15aa285c-3a73-680c-abf4-48ea1328d508",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/turns/getEvent/evento2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c34d8e50-e4c1-2332-1c21-15edd33e2faa",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/turns/getEvent/evento2",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1670182618674,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"date_turn\":\"2022-11-10\", \n\t\"event\":{ \n\t\t\"id\":20,\n\t\t\"name\":\"evento1\"\n\t}, \n\t\"person\": { \n\t\t\"dni\":\"12345677\"\n\t}\n}"
+		},
+		{
+			"id": "88017c39-75ff-a5c0-0ccf-f04675654102",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/turns/delete/18",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "c34d8e50-e4c1-2332-1c21-15edd33e2faa",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/turns/delete/18",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1670182465546,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"date_turn\":\"2022-12-10\"\n}"
+		},
+		{
+			"id": "92b42fa8-e25c-30bd-4863-05f254bc9da5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/turns/update/18",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "c34d8e50-e4c1-2332-1c21-15edd33e2faa",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/turns/update/18",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1670181148743,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"date_turn\":\"2022-12-10\"\n}"
+		},
+		{
+			"id": "970d13ed-0485-43cb-ef09-c58123ecb2ea",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/turns/delete/18",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "c34d8e50-e4c1-2332-1c21-15edd33e2faa",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/turns/delete/18",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1670182456074,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\n\t\"date_turn\":\"2022-12-10\"\n}"
+		},
+		{
+			"id": "a10a247d-341f-5481-cc07-d8d28e09de74",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/turns/saveTurn/recurrente",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c34d8e50-e4c1-2332-1c21-15edd33e2faa",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/turns/saveTurn/recurrente",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669577611254,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\"id\":1,\n\t\"date_turn\":\"2022-11-30\", \n\t\"event\":{ \n\t\t\"id\":29, \n\t\t\"name\":\"evento2\"\n\t\t\n\t}, \n\t\"person\": { \n\t\t\n\t\t\"dni\":\"12345677\"\n\t\t\n\t}\n}"
+		},
+		{
+			"id": "cc255de9-48bf-58f4-b393-adc54f9f398f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/turns/saveTurn/recurrente",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c34d8e50-e4c1-2332-1c21-15edd33e2faa",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/turns/saveTurn/recurrente",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669577626411,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\"id\":1,\n\t\"date_turn\":\"2022-11-30\", \n\t\"event\":{ \n\t\t\"id\":29, \n\t\t\"name\":\"evento2\"\n\t\t\n\t}, \n\t\"person\": { \n\t\t\n\t\t\"dni\":\"12345679\"\n\t\t\n\t}\n}"
+		},
+		{
+			"id": "fa7fbba9-d286-fe26-6d31-07ade2115a74",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/turns/saveTurn/recurrente",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c34d8e50-e4c1-2332-1c21-15edd33e2faa",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/api/v1/turns/saveTurn/recurrente",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669577336160,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \n\t\"id\":1,\n\t\"date_turn\":\"2022-11-30\", \n\t\"event\":{ \n\t\t\"id\":21, \n\t\t\"name\":\"evento2\"\n\t\t\n\t}, \n\t\"person\": { \n\t\t\n\t\t\"dni\":\"12345677\"\n\t\t\n\t}\n}"
+		}
+	]
+}
